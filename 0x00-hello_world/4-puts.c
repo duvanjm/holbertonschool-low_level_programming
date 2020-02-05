@@ -1,7 +1,10 @@
 #include <stdio.h>
-main()
+/**
+ *main - function
+ *Return: valve 0
+ */
+int main(void)
 {
-/*main - print a sentence*/
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
