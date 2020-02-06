@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include <time.h>
+/ * más encabezados van allí * /
+
+/ * betty style doc para la función main va allí * /
+int main (nulo)
+{
+	int n;
+
+	srand (tiempo (0));
+	n = rand () - RAND_MAX / 2;
+	if (n => 0,):
+	printf("is positive\n") 
+	retorno (0);
+}
