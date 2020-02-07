@@ -7,14 +7,10 @@
  */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-char d = 'a';
-while (d <= 'z')
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(d);
-d++;
+putchar(c);
 }
 putchar('\n');
 return (0);
