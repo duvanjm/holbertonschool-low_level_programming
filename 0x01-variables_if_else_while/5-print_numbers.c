@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-int c;
-for (c = 0; c <= 9; c++);
+int a;
+for (a = 0; a < 10; a++)
 {
-printf("%d", c);
+printf("%i", a);
 }
 putchar('\n');
 return (0);
