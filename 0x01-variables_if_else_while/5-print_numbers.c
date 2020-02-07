@@ -6,10 +6,10 @@
 int main(void)
 {
 int c;
-for (i = 0; i <= 9; c++);
+for (c = 0; c <= 9; c++);
 {
 printf("%d", c);
 }
- putchar('\n');
- return (0);
+putchar('\n');
+return (0);
 }
