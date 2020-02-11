@@ -1,9 +1,8 @@
 #include "holberton.h"
-/** 
- *print_last_digit - print the last digit
- *@n: function
+/**
+ *jack_bauer - function
  *Return: valve 0
- */ 
+ */
 void jack_bauer(void)
 {
 int n1;
@@ -22,12 +21,12 @@ for (n3 = 0; n3 < 6; n3++)
 {
 for (n4 = 0; n4 < 10; n4++)
 {
-if(n1 == 2 && n2 > 2)
+if (n1 == 2 && n2 > 2)
 {
 break;
 }
- else
-   {
+else
+{
 _putchar(n1 + 48);
 _putchar(n2 + 48);
 _putchar(58);
