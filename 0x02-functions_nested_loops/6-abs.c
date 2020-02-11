@@ -1,14 +1,23 @@
 #include "holberton.h"
 /**
- *print_sign - @coment
+ *_abs - absolute value
  *@n: function
  *Return: valve 0
  */
 int _abs(int n)
 {
-if (n < 0) 
+if (n < 0)
 {
-n = -n;
+n = n * (-1);
+return (n);
 }
-return (0); 
+else if (n > 0)
+{
+return (n);
+}
+else
+{
+return (0);
+}
+return (0);
 }
