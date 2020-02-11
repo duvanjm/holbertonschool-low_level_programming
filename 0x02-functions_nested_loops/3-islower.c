@@ -1,7 +1,6 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
- *main - function
+ *_islower - function
  *Return: valve 0
  */
 int _islower(int c)
