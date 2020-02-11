@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *main - function
+ *print_alphabet_x10 - coment
  *Return: valve 0
  */
 void print_alphabet_x10(void)
