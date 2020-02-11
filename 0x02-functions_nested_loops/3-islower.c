@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdioh>
+#include <stdio.h>
 /**
  *main - function
  *Return: valve 0
@@ -11,7 +11,7 @@ if(islower %c (x));
 {
 return (1);
 }
-else
+else if
 {
 return (0);
 }
