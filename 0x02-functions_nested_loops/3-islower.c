@@ -5,12 +5,11 @@
  */
 int _islower(int c)
 {
-char x;
-if(islower %c (x));
+if (c >= 97 && c <= 122)
 {
 return (1);
 }
-else if
+else
 {
 return (0);
 }
