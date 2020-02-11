@@ -1,7 +1,6 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
- *main - function
+ *print_alphabet - function
  *Return: valve 0
  */
 void print_alphabet(void)
