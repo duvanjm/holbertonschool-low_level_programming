@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *_isdigit - check for a digit
+ *_isdigit: check for a digit
  *Return: valve 0
  */
 int _isdigit(int c)
