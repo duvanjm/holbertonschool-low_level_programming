@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *_strlen - function
+ *print_rev - function
  *Return: valve 0
  *@s: variable
  */
@@ -15,12 +15,9 @@ int d;
 		a++;
 	}
 	a--;
-
-	for (d = a; d != -1; --d)
+		for (d = a; d != -1; --d)
 		{
 			_putchar(s[d]);
 		}
-	
 	_putchar('\n');
-
 }
