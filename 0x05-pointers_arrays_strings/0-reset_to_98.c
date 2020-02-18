@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- *print_numbers - show numbers
+ *reset_to_98 - function
  *Return: valve 0
+ *@n: variable
  */
 void reset_to_98(int *n)
 {
