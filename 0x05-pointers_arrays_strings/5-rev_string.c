@@ -23,7 +23,7 @@ int m = 0;
 		aux[m] = s[d];
 		m++;
 	}
-	for (i = 0; i < a; i++)
+	for (i = 0; i < a + 1; i++)
 	{
 		s[i] = aux[i];
 	}
