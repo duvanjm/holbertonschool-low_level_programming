@@ -1,16 +1,17 @@
 #include "holberton.h"
 /**
- *rev_string - function
+ *puts2 - function
  *Return: valve 0
- *@s: variable
+ *@str: variable
  */
 void puts2(char *str)
 {
-  int x;
+int x;
 
-  for(x = 0; str[x] != '\n'; x+=2)
-    {
-      _putchar(str[x] + 48);
-    }
-  _putchar('\n');
+	for (x = 0; str[x] != '\n'; x++)
+	{
+		if (x % 2 == 0)
+		_putchar(str[x]);
+	}
+	_putchar('\n');
 }
