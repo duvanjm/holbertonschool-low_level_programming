@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- **_strcat - function
+ **_strncat - function
  *@src: variable
  *@dest: variable
  *@n: variable
