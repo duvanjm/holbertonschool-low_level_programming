@@ -19,5 +19,5 @@ int count = 0;
 	return (s1[count] - s2[count]);
 	(count++);
 	}
-	return (0);
+	return(0);
 }
