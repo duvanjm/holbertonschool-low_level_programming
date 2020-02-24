@@ -1,18 +1,18 @@
 #include "holberton.h"
 /**
- *_memset - function
- *@b: variable
- *@s: variable
+ *_memcpy - function
+ *@dest: variable
+ *@src: variable
  *@n: variable
- *return - char
+ *Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsigned int a;
 
- for(a = 0; src[a] <= n; a++)
-   {
-     dest[a] = src[a];
-   }
- return(dest);
+	for (a = 0; a < n; a++)
+	{
+	dest[a] = src[a];
+	}
+	return (dest);
 }
