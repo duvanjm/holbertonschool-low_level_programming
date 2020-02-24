@@ -14,5 +14,5 @@ unsigned int a;
 	{
 		s[a] = b;
 	}
-	return (0);
+	return (s);
 }
