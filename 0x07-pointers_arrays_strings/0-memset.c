@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
  *_memset - function
+ *Return: value of '_memset
  *@b: variable
  *@s: variable
  *@n: variable
- *return - char
  */
 char *_memset(char *s, char b, unsigned int n)
 {
