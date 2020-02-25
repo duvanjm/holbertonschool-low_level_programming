@@ -1,24 +1,24 @@
 #include "holberton.h"
 /**
- *_strspn - function
+ *_strpbrk - function
  *@s: variable
  *@accept: variable
  *Return: dest
  */
 char *_strpbrk(char *s, char *accept)
 {
-  while (*s != '\0')
-    {
-      if (*s == *accept)
+	while (*s != '\0')
 	{
-	  return (s);
+	if (*s == *accept)
+	{
+		return (s);
 	}
-      s++;
-    }
-  if (accept == '\0')
-    {
-      return (s);
-    }
-  return ('\0');
+		s++;
+	}
+	if (accept == '\0')
+	{
+	return (s);
+	}
+	return ('\0');
 }
 
