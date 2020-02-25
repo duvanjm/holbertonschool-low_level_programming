@@ -15,6 +15,6 @@ int rows;
 		{
 			_putchar(a[rows][colums]);
 		}
+		_putchar('\n');
 	}
-	_putchar ('\n');
 }
