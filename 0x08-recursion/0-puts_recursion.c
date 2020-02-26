@@ -14,4 +14,6 @@ int p = 0;
 		p++;
 		_puts_recursion(s + 1);
 	}
+	else
+		_putchar('\n');
 }
