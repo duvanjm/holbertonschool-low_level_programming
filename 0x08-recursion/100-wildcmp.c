@@ -1,18 +1,19 @@
 #include "holberton.h"
 int _functiond(int y, int x);
 /**
- *is_prime_number - function
+ *wildcmp - function
  *Return: valve 0
- *@n: variable
+ *@s1: variable
+ *@s2: variable
  */
-int is_prime_number(int n)
+int wildcmp(char *s1, char *s2)
 {
 
-	if (n <= 0)
+	if (s1 != s2)
 	{
-		return (0);
+		return (1);
 	}
-	return (_functiond(n, n - 1));
+	return (0);
 }
 /**
  * _functiond - function
