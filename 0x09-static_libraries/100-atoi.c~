@@ -1,0 +1,8 @@
+#include <stdio.h>
+int _atoi(char *s);
+{
+	printf("%c",s);
+	s++;
+
+	return(*s);
+}
