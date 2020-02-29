@@ -1,8 +1,13 @@
 #include <stdio.h>
-
+/**
+ *main - main
+ *Return: zero
+ *@argc: variable
+ *@argv: variable
+ */
 int main(int argc, char *argv[])
 {
 	argc = 0;
 	printf("%s \n", argc[argv]);
-	return(0);
+	return (0);
 }
