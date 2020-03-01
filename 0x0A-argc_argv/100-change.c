@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int mul;
+	int conv;
 
 	if (argc < 3)
 	{
@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 		int x = atoi(argv[1]);
 		int y = atoi(argv[2]);
 
-		mul = x * y;
-		printf("%d\n", mul);
+		conv = x * y;
+		printf("%d\n", conv);
 	}
 	return (0);
 }
