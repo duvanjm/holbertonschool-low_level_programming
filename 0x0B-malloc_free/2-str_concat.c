@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * *str_concat - array
- * @s1: pointers
- * @s2: pointers
- * Return: value
+ * str_concat - finction
+ * @s1: variables
+ * @s2: variables
+ * Return: char
  */
 char *str_concat(char *s1, char *s2)
 {
