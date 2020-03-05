@@ -1,14 +1,15 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- *free_grid - function
+ *string_nconcat - function
  *Return: int
- *@grid: variable
- *@height: variable
+ *@s1: variable
+ *@s2: variable
+ *@n: variable
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i, e, x, j, d;
+	unsigned int s, i, e, x, j, m;
 	char *a;
 
 	if (s1 == NULL)
@@ -25,11 +26,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (x = 0; s2[x] != '\0'; x++)
 	{
 		if (x < n)
-		{
-			d++;
-		}
+		s++;
 	}
-	a = malloc((i + d) * sizeof(char) + 1);
+	a = malloc((i + x + 1) * sizeof(char));
 	if (a == NULL)
 	{
 		return (NULL);
@@ -38,9 +37,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		a[j] = s1[j];
 	}
-	for (e = 0; e < x; e++)
+	m = 0;
+	for (e = 0; e < n; e++)
 	{
-		a[e + j] = s1[j] + s2[e];
+		a[e + j] = s2[m];
+		m++;
 	}
 	a[e + j] = '\0';
 	return (a);
