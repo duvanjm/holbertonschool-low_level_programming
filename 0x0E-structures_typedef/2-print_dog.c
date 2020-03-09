@@ -3,7 +3,7 @@
 /**
  * print_dog - function
  * @d: pointer
- * Description: Write a function that initialize a variable of type struct dog
+ * Return: void
  */
 void print_dog(struct dog *d)
 {
