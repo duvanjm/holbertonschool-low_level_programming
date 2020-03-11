@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *print_name - function
+ *array_iterator - function
  *Return: void
- *@name: pointer
- *@f: pointer to function
+ *@array: pointer
+ *@size: size of array
+ *@action: pointer
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int a;
 
-	for (a = 0; a < size; a++)
+	if ((*action) != '\0')
 	{
-		(*action)(array[a]);
+		for (a = 0; a < size; a++)
+		{
+			(*action)(array[a]);
+		}
 	}
 }
