@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include "3-calc.h"
 /**
- *array_iterator - function
- *Return: void
- *@array: pointer
- *@size: size of array
- *@action: pointer
+ *main - main
+ *Return: zero
+ *@argc: arguments
+ *@argv: array of arguments
  */
 int main(int argc, char *argv)
 {
@@ -25,11 +24,11 @@ int main(int argc, char *argv)
 	}
 	if (*argv[2] == '/' || *argv[2] == '%' && *argv[3] == 0)
 	{
-		printf ("Error\n");
+		printf("Error\n");
 		exit(100);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
 	printf("%d\n", get_op_function(argv[2])(num1, num2));
-	return(0);
+	return (0);
 }
