@@ -3,7 +3,7 @@
 void before_the_main(void)__attribute__ ((constructor));
 
 /**
- * myStartupFun - function 
+ * before_the_main - function
  */
 void before_the_main(void)
 {
