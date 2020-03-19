@@ -1,16 +1,15 @@
 #include "lists.h"
 /**
-  *print_list - function
+  *list_len - function
   *@h: pointer
   *Return: size_t
   */
 size_t list_len(const list_t *h)
 {
-	int i = 0;
+	int i;
 
-	while (h != NULL)
+	for (i = 0; h != NULL; i++)
 	{
-		i++;
 		h = h->next;
 	}
 	return (i);
