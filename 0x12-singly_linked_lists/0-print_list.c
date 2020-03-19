@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
 /**
  *print_list - function
  *@h: pointer
@@ -10,15 +8,18 @@ size_t print_list(const list_t *h)
 {
 	int i = 0;
 
-	if (h == NULL)
-	{
-		printf("[0] (nil)");
-	}
 	while (h != NULL)
 	{
-		i++;
-		printf("%d\n", h->n);
+		if (str == NULL)
+		{
+			printf("[0] (nil)");
+		}
+		else
+		{
+			printf("[%d] %s\n", h->len, h->next);
+		}
 		h = h->next;
+		i++;
 	}
 	return(i);
 }
