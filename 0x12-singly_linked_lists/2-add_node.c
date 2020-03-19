@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
-  *print_list - function
-  *@h: pointer
-  *Return: size_t
+  *add_node - function
+  *@head: double pointer
+  *@str: pointer
+  *Return: node
   */
 list_t *add_node(list_t **head, const char *str)
 {
