@@ -1,16 +1,14 @@
 #include "lists.h"
 /**
-  *print_list - function
-  *@h: pointer
-  *Return: size_t
+  *free_list - function
+  *@head: pointer
+  *Return: void
   */
 void free_list(list_t *head)
 {
-	int i;
-
-	for (i = 0; head[i] != NULL; i++)
+	while (head)
 	{
 		free(head);
+		
 	}
-	head->head = next;
 }
