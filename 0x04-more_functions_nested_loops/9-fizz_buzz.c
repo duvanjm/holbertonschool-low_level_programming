@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "holberton.h"
 
+/**
+ *main - function
+ *Return: zero
+ */
+
 int main(void)
 {
 	int i;
