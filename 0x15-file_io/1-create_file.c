@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 		for (i = 0; text_content[i] != '\0'; i++)
 			;
 	}
-	o = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 600);
+	o = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0600);
 	if (0 == -1)
 		return (0);
 	if (text_content)
