@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - function
+ * dlistint_len - function
  * @h: pointer to firts node of a list
  * Return: size_t
  */
