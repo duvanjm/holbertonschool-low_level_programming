@@ -2,4 +2,5 @@ CC=gcc
 SRC=holberton.c main.c
 
 all: $(SRC)
-	$(SRC) $(CC) -o holberton
+	$(CC) $(SRC) -o holberton
+
